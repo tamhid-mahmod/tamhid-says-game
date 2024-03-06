@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+  line-height: 5rem;
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 1.5rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.green {
+  background-color: #d95980;
+}
+
+.yellow {
+  background-color: #f99b45;
+}
+
+.red {
+  background-color: #819ff9;
+}
+
+.blue {
+  background-color: #63aac0;
+}
+
+.flash {
+  background-color: white;
+}
+
+.game-over-flash {
+  background-color: red;
+}
